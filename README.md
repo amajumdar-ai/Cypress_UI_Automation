@@ -12,5 +12,5 @@ How to launch the Test Runner-
 
 1. to launch the browser and run the test case- ./node_modules/.bin/cypress open
 2. to run all the test cases present under the example Folder in terminal - ./node_modules/.bin/cypress run
-3. to run all the test cases present under the example Folder through terminal with launching the browser - ./node_modules/.bin/cypress run --headed
+3. to run all the test cases present under the example Folder through terminal without launching the browser - ./node_modules/.bin/cypress run --headed
 4. to run the test cases in a specific browser- ./node_modules/.bin/cypress run --browser chrome
