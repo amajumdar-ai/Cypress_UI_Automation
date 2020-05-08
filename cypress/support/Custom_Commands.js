@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+// -- This is a parent command --
+ Cypress.Commands.add("login", (username,password) => {
+
+    cy.visit('https://login-sandbox.imedidata.net/login')
+    cy.get('#session_username').type('armajumdar')
+    cy.get('#session_password').type('ARPkool1294')
+    cy.get ('#create_session_link').click
+    
+       })
