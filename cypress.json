@@ -1,19 +1,18 @@
 {
-        
-    "baseUrl": "https://login-sandbox.imedidata.net/login",
     "watchForFileChanges": false,
     "viewportWidth": 1000,
     "viewportHeight": 600,
     "waitForAnimations": true,
     "animationDistanceTreshold": 20,
     "defaultCommandTimeout": 5000,
-    "execTimeout": 60000,
+    "execTimeout": 6000,
     "pageLoadTimeout": 60000,
-    "requestTimeout": 15000,
-    "responseTimeout": 15000,
+    "requestTimeout": 60000,
+    "responseTimeout": 60000,
     "video": false,
     "failOnStatusCode":false,
     "supportFile":  "cypress/support/index.js",
     "screenshotsFolder": "cypress/screenshots",
-    "fixtureFolder": "cypress/fixtures"
+    "fixtureFolder": "cypress/fixtures",
+    "pluginsFile":	"cypress/plugins/index.js"
 }
