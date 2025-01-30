@@ -1,7 +1,7 @@
 {
   "name": "ui_automation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Steps to setup your project-",
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
@@ -11,12 +11,21 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^13.13.5",
-    "cypress": "^4.5.0",
+    "cypress": "^14.0.1",
     "typescript": "^2.8.3"
   },
   "dependencies": {
     "cypress-image-snapshot": "^3.1.1",
     "cypress-xpath": "^1.4.0",
     "prettier": "^2.0.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amajumdar-ai/Cypress_UI_Automation.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/amajumdar-ai/Cypress_UI_Automation/issues"
+  },
+  "homepage": "https://github.com/amajumdar-ai/Cypress_UI_Automation#readme"
 }
