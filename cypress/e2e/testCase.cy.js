@@ -34,5 +34,9 @@ describe('Test Automation Demo Site', () => {
             .contains('Keynote Addresses')  // Check the text inside the h2 element
             .and('have.text', 'Keynote Addresses');  // Assert the correct text
     });
+    after(() => {
+        // Log when the tests are complete
+        cy.log('Test Execution Completed');
+    });
 
 });
